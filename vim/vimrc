@@ -24,6 +24,8 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 
 " My Bundles here:
 NeoBundle 'Shougo/neocomplcache'
+NeoBundle 'nvie/vim-flake8'
+NeoBundle 'scrooloose/syntastic'
 
 call neobundle#end()
 

@@ -74,8 +74,10 @@ To have full features of those dotfiles, you need to install the following packa
 * ~~emmet-vim: <https://github.com/mattn/emmet-vim>~~
 * ~~html5.vim: <https://github.com/othree/html5.vim>~~
 * ~~NERDTree: <https://github.com/scrooloose/nerdtree>~~
-* ~~NeoBundle.vim: <https://github.com/Shougo/neobundle.vim>~~
-* ~~NeoComplCache: <https://github.com/Shougo/neocomplcache>~~
+* NeoBundle.vim: <https://github.com/Shougo/neobundle.vim>
+* NeoComplCache: <https://github.com/Shougo/neocomplcache>
+* syntastic: <https://github.com/scrooloose/syntastic>
+* vim-flake8: <https://github.com/nvie/vim-flake8>
 * ~~SWIG-syntax: <https://github.com/vim-scripts/SWIG-syntax>~~
 * ~~Tagbar: <https://github.com/majutsushi/tagbar>~~
 * ~~vim-addon-haskell: <https://github.com/MarcWeber/vim-addon-haskell>~~
