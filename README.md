@@ -5,6 +5,8 @@
 First, clone this repo onto your system:
 
     $ git clone https://github.com/chifatty/Dotfiles.git && cd Dotfiles
+    $ git submodule init
+    $ git submodule update
 
 Then, you should create symlinks in your home directory to point to the actual dotfile files:
 
