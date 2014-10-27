@@ -26,6 +26,7 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 NeoBundle 'Shougo/neocomplcache'
 NeoBundle 'nvie/vim-flake8'
 NeoBundle 'scrooloose/syntastic'
+NeoBundle 'scrooloose/nerdtree'
 
 call neobundle#end()
 
@@ -103,16 +104,17 @@ set laststatus=2
 "augroup END
 
 """ Sidebar Setting(s)
-"nmap <leader>ed :NERDTreeToggle<CR>:wincmd p<CR>
-"nmap <leader>et :TagbarToggle<CR>
-"nmap <leader>ee :NERDTreeToggle<CR>:wincmd p<CR>:TagbarToggle<CR>
-"
-"let s:SidebarWidth = 28
-"let g:NERDTreeWinSize = s:SidebarWidth
-"let g:tagbar_width = s:SidebarWidth
-"let g:tagbar_ctags_bin = '/usr/local/bin/ctags'
-"let g:tagbar_left = 1
-"let g:nerdtree_tabs_open_on_console_startup = 1
+nmap <leader>ed :NERDTreeToggle<CR>:wincmd p<CR>
+nmap <leader>et :TagbarToggle<CR>
+nmap <leader>ee :NERDTreeToggle<CR>:wincmd p<CR>:TagbarToggle<CR>
+
+let s:SidebarWidth = 28
+let g:NERDTreeWinSize = s:SidebarWidth
+let g:tagbar_width = s:SidebarWidth
+let g:tagbar_ctags_bin = '/usr/local/bin/ctags'
+let g:tagbar_left = 1
+let g:nerdtree_tabs_open_on_console_startup = 1
+autocmd vimenter * NERDTree
 
 """ Autocomplete Setting(s)
 let g:neocomplcache_enable_at_startup = 1
